@@ -1,0 +1,1380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="app_invLOCALDataSet" targetNamespace="http://tempuri.org/app_invLOCALDataSet.xsd" xmlns:mstns="http://tempuri.org/app_invLOCALDataSet.xsd" xmlns="http://tempuri.org/app_invLOCALDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="app_invLOCALConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="app_invLOCALConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ImportadorCSV_DotNet.Properties.Settings.GlobalReference.Default.app_invLOCALConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="atualizacao_bkp_05042018TableAdapter" GeneratorDataComponentClassName="atualizacao_bkp_05042018TableAdapter" Name="atualizacao_bkp_05042018" UserDataComponentName="atualizacao_bkp_05042018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.atualizacao_bkp_05042018" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `atualizacao_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `atualizacao_bkp_05042018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventárioTableAdapter" GeneratorDataComponentClassName="inventárioTableAdapter" Name="inventário" UserDataComponentName="inventárioTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.inventário" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_antigaTableAdapter" GeneratorDataComponentClassName="inventário_antigaTableAdapter" Name="inventário_antiga" UserDataComponentName="inventário_antigaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_antiga`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_antiga`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_02052018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_02052018TableAdapter" Name="inventário_bkp_02052018" UserDataComponentName="inventário_bkp_02052018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_02052018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_02052018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_04042017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_04042017TableAdapter" Name="inventário_bkp_04042017" UserDataComponentName="inventário_bkp_04042017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_04042017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_04042017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_04052018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_04052018TableAdapter" Name="inventário_bkp_04052018" UserDataComponentName="inventário_bkp_04052018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_04052018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_04052018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_04062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_04062018TableAdapter" Name="inventário_bkp_04062018" UserDataComponentName="inventário_bkp_04062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_04062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_04062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_05042018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_05042018TableAdapter" Name="inventário_bkp_05042018" UserDataComponentName="inventário_bkp_05042018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_05042018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_05042018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_05122017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_05122017TableAdapter" Name="inventário_bkp_05122017" UserDataComponentName="inventário_bkp_05122017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_05122017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_05122017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_06062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_06062018TableAdapter" Name="inventário_bkp_06062018" UserDataComponentName="inventário_bkp_06062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_06062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_06062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_06102016TableAdapter" GeneratorDataComponentClassName="inventário_bkp_06102016TableAdapter" Name="inventário_bkp_06102016" UserDataComponentName="inventário_bkp_06102016TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_06102016`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_06102016`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_06122016TableAdapter" GeneratorDataComponentClassName="inventário_bkp_06122016TableAdapter" Name="inventário_bkp_06122016" UserDataComponentName="inventário_bkp_06122016TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_06122016`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_06122016`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_08022018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_08022018TableAdapter" Name="inventário_bkp_08022018" UserDataComponentName="inventário_bkp_08022018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_08022018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_08022018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_08052018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_08052018TableAdapter" Name="inventário_bkp_08052018" UserDataComponentName="inventário_bkp_08052018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_08052018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_08052018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_09052017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_09052017TableAdapter" Name="inventário_bkp_09052017" UserDataComponentName="inventário_bkp_09052017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_09052017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_09052017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_10082017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_10082017TableAdapter" Name="inventário_bkp_10082017" UserDataComponentName="inventário_bkp_10082017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_10082017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_10082017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_11062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_11062018TableAdapter" Name="inventário_bkp_11062018" UserDataComponentName="inventário_bkp_11062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_11062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_11062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_11072017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_11072017TableAdapter" Name="inventário_bkp_11072017" UserDataComponentName="inventário_bkp_11072017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_11072017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_11072017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_11072018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_11072018TableAdapter" Name="inventário_bkp_11072018" UserDataComponentName="inventário_bkp_11072018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_11072018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_11072018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_12042018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_12042018TableAdapter" Name="inventário_bkp_12042018" UserDataComponentName="inventário_bkp_12042018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_12042018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_12042018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_12062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_12062018TableAdapter" Name="inventário_bkp_12062018" UserDataComponentName="inventário_bkp_12062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_12062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_12062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_13062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_13062018TableAdapter" Name="inventário_bkp_13062018" UserDataComponentName="inventário_bkp_13062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_13062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_13062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_14092017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_14092017TableAdapter" Name="inventário_bkp_14092017" UserDataComponentName="inventário_bkp_14092017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_14092017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_14092017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_15052018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_15052018TableAdapter" Name="inventário_bkp_15052018" UserDataComponentName="inventário_bkp_15052018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_15052018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_15052018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_15062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_15062018TableAdapter" Name="inventário_bkp_15062018" UserDataComponentName="inventário_bkp_15062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_15062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_15062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_16042018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_16042018TableAdapter" Name="inventário_bkp_16042018" UserDataComponentName="inventário_bkp_16042018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_16042018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_16042018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_16042018_v2TableAdapter" GeneratorDataComponentClassName="inventário_bkp_16042018_v2TableAdapter" Name="inventário_bkp_16042018_v2" UserDataComponentName="inventário_bkp_16042018_v2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_16042018_v2`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_16042018_v2`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_17112017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_17112017TableAdapter" Name="inventário_bkp_17112017" UserDataComponentName="inventário_bkp_17112017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_17112017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_17112017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_18012017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_18012017TableAdapter" Name="inventário_bkp_18012017" UserDataComponentName="inventário_bkp_18012017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_18012017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_18012017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_18052017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_18052017TableAdapter" Name="inventário_bkp_18052017" UserDataComponentName="inventário_bkp_18052017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_18052017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_18052017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_18102017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_18102017TableAdapter" Name="inventário_bkp_18102017" UserDataComponentName="inventário_bkp_18102017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_18102017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_18102017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_19062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_19062018TableAdapter" Name="inventário_bkp_19062018" UserDataComponentName="inventário_bkp_19062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_19062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_19062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_19072017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_19072017TableAdapter" Name="inventário_bkp_19072017" UserDataComponentName="inventário_bkp_19072017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_19072017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_19072017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_19102016TableAdapter" GeneratorDataComponentClassName="inventário_bkp_19102016TableAdapter" Name="inventário_bkp_19102016" UserDataComponentName="inventário_bkp_19102016TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_19102016`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_19102016`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_20062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_20062018TableAdapter" Name="inventário_bkp_20062018" UserDataComponentName="inventário_bkp_20062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_20062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_20062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_20122016TableAdapter" GeneratorDataComponentClassName="inventário_bkp_20122016TableAdapter" Name="inventário_bkp_20122016" UserDataComponentName="inventário_bkp_20122016TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_20122016`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_20122016`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_21052018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_21052018TableAdapter" Name="inventário_bkp_21052018" UserDataComponentName="inventário_bkp_21052018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_21052018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_21052018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_21062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_21062018TableAdapter" Name="inventário_bkp_21062018" UserDataComponentName="inventário_bkp_21062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_21062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_21062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_21072017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_21072017TableAdapter" Name="inventário_bkp_21072017" UserDataComponentName="inventário_bkp_21072017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_21072017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_21072017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_22032017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_22032017TableAdapter" Name="inventário_bkp_22032017" UserDataComponentName="inventário_bkp_22032017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_22032017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_22032017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_22052018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_22052018TableAdapter" Name="inventário_bkp_22052018" UserDataComponentName="inventário_bkp_22052018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_22052018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_22052018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_22082018_preenchidaTableAdapter" GeneratorDataComponentClassName="inventário_bkp_22082018_preenchidaTableAdapter" Name="inventário_bkp_22082018_preenchida" UserDataComponentName="inventário_bkp_22082018_preenchidaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_22082018_preenchida`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_22082018_preenchida`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_23012018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_23012018TableAdapter" Name="inventário_bkp_23012018" UserDataComponentName="inventário_bkp_23012018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_23012018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_23012018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_23042018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_23042018TableAdapter" Name="inventário_bkp_23042018" UserDataComponentName="inventário_bkp_23042018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_23042018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_23042018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_23082018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_23082018TableAdapter" Name="inventário_bkp_23082018" UserDataComponentName="inventário_bkp_23082018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_23082018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_23082018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_23082018_v2TableAdapter" GeneratorDataComponentClassName="inventário_bkp_23082018_v2TableAdapter" Name="inventário_bkp_23082018_v2" UserDataComponentName="inventário_bkp_23082018_v2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_23082018_v2`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_23082018_v2`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_24052018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_24052018TableAdapter" Name="inventário_bkp_24052018" UserDataComponentName="inventário_bkp_24052018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_24052018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_24052018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_24082017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_24082017TableAdapter" Name="inventário_bkp_24082017" UserDataComponentName="inventário_bkp_24082017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_24082017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_24082017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_25042018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_25042018TableAdapter" Name="inventário_bkp_25042018" UserDataComponentName="inventário_bkp_25042018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_25042018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_25042018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_25062018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_25062018TableAdapter" Name="inventário_bkp_25062018" UserDataComponentName="inventário_bkp_25062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_25062018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_25062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_26012017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_26012017TableAdapter" Name="inventário_bkp_26012017" UserDataComponentName="inventário_bkp_26012017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_26012017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_26012017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_26012018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_26012018TableAdapter" Name="inventário_bkp_26012018" UserDataComponentName="inventário_bkp_26012018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_26012018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_26012018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_26042018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_26042018TableAdapter" Name="inventário_bkp_26042018" UserDataComponentName="inventário_bkp_26042018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_26042018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_26042018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_26042018_v2TableAdapter" GeneratorDataComponentClassName="inventário_bkp_26042018_v2TableAdapter" Name="inventário_bkp_26042018_v2" UserDataComponentName="inventário_bkp_26042018_v2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_26042018_v2`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_26042018_v2`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_26092017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_26092017TableAdapter" Name="inventário_bkp_26092017" UserDataComponentName="inventário_bkp_26092017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_26092017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_26092017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_27102017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_27102017TableAdapter" Name="inventário_bkp_27102017" UserDataComponentName="inventário_bkp_27102017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_27102017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_27102017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_28052018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_28052018TableAdapter" Name="inventário_bkp_28052018" UserDataComponentName="inventário_bkp_28052018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_28052018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_28052018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_29062017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_29062017TableAdapter" Name="inventário_bkp_29062017" UserDataComponentName="inventário_bkp_29062017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_29062017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_29062017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_29112017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_29112017TableAdapter" Name="inventário_bkp_29112017" UserDataComponentName="inventário_bkp_29112017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_29112017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_29112017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_30012018TableAdapter" GeneratorDataComponentClassName="inventário_bkp_30012018TableAdapter" Name="inventário_bkp_30012018" UserDataComponentName="inventário_bkp_30012018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_30012018`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_30012018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_bkp_30052017TableAdapter" GeneratorDataComponentClassName="inventário_bkp_30052017TableAdapter" Name="inventário_bkp_30052017" UserDataComponentName="inventário_bkp_30052017TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_bkp_30052017`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_bkp_30052017`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventário_novoTableAdapter" GeneratorDataComponentClassName="inventário_novoTableAdapter" Name="inventário_novo" UserDataComponentName="inventário_novoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.`inventário_novo`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `inventário_id`, `Etiqueta_Fiat_Group`, `Dns_Host_Name`, `AtivoAssoc`, `Asset_Type`, `Computer_Type`, `Manufacturer`, `Model`, `Localizacao`, `Tipo_de_alocacao`, `Patrimonio`, `Numero_de_Serie`, `EmpresaProprietaria`, `EmpresaCliente`, `Localidade`, `Usuário_Resp`, `User_Vip`, `STATUS`, `CRESP`, `login` FROM `inventário_novo`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_analistasTableAdapter" GeneratorDataComponentClassName="tb_analistasTableAdapter" Name="tb_analistas" UserDataComponentName="tb_analistasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_analistas" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `analistas_id`, `ID_do_Usuário`, `Nome`, `E-mail`, `RG`, `CPF`, `Registro` FROM `tb_analistas`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_atendimentoTableAdapter" GeneratorDataComponentClassName="tb_atendimentoTableAdapter" Name="tb_atendimento" UserDataComponentName="tb_atendimentoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_atendimento" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idtb_atendimento`, `login_rede`, `email`, `descricao`, `dt_registro` FROM `tb_atendimento`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_auxiliarTableAdapter" GeneratorDataComponentClassName="tb_auxiliarTableAdapter" Name="tb_auxiliar" UserDataComponentName="tb_auxiliarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_auxiliar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `table_name`, `CREATE_TIME` FROM `tb_auxiliar`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_chavesTableAdapter" GeneratorDataComponentClassName="tb_chavesTableAdapter" Name="tb_chaves" UserDataComponentName="tb_chavesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_chaves" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `tb_chaves_id`, `Caixa`, `Plastico`, `Chave`, `Obs.` FROM `tb_chaves`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_classificacaoTableAdapter" GeneratorDataComponentClassName="tb_classificacaoTableAdapter" Name="tb_classificacao" UserDataComponentName="tb_classificacaoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_classificacao" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `tb_classificacao_id`, `ClassificacaoAplServImpactado`, `Classificacao` FROM `tb_classificacao`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_controle_estoqueTableAdapter" GeneratorDataComponentClassName="tb_controle_estoqueTableAdapter" Name="tb_controle_estoque" UserDataComponentName="tb_controle_estoqueTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_controle_estoque" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idtb_controle_estoque`, `tipo_movimentacao`, `analista_id`, `SERIAL`, `ETIQUETA`, `leasing`, `modelo`, `tipo_equipamento`, `status_drivetit`, `data_movimentacao` FROM `tb_controle_estoque`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_scriptTableAdapter" GeneratorDataComponentClassName="tb_scriptTableAdapter" Name="tb_script" UserDataComponentName="tb_scriptTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_script" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idtb_script`, `nomescript`, `tipo`, `status`, `txtscript`, `dt_inclusaoscript` FROM `tb_script`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_statusTableAdapter" GeneratorDataComponentClassName="tb_statusTableAdapter" Name="tb_status" UserDataComponentName="tb_statusTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_status" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idtb_status`, `status`, `data_inclusao` FROM `tb_status`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_usuarioTableAdapter" GeneratorDataComponentClassName="tb_usuarioTableAdapter" Name="tb_usuario" UserDataComponentName="tb_usuarioTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_usuario" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Usuário_Resp_id`, `Usuário_Resp`, `User_Vip`, `login` FROM `tb_usuario`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tb_validachamadoTableAdapter" GeneratorDataComponentClassName="tb_validachamadoTableAdapter" Name="tb_validachamado" UserDataComponentName="tb_validachamadoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.tb_validachamado" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idtb_validachamado`, `numchamado`, `dt_geracaoscript`, `analista_login`, `script_utilizado`, `item_de_configuracao` FROM `tb_validachamado`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="usuarioxcdcTableAdapter" GeneratorDataComponentClassName="usuarioxcdcTableAdapter" Name="usuarioxcdc" UserDataComponentName="usuarioxcdcTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.usuarioxcdc" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ID_Number`, `ID_SAP`, `Name`, `Hiring_Date`, `CDC`, `CDC_Description`, `Location`, `Company`, `Manager_Area`, `Macro_Area`, `Organizational_Unit_ID`, `Organizational_Unit_Description`, `Direct_Manager_ID`, `Direct_Manager_Name` FROM `usuarioxcdc`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="usuarioxcdc_bkp_04062018TableAdapter" GeneratorDataComponentClassName="usuarioxcdc_bkp_04062018TableAdapter" Name="usuarioxcdc_bkp_04062018" UserDataComponentName="usuarioxcdc_bkp_04062018TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.usuarioxcdc_bkp_04062018" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ID_Number`, `ID_SAP`, `Name`, `Hiring_Date`, `CDC`, `CDC_Description`, `Location`, `Company`, `Manager_Area`, `Macro_Area`, `Organizational_Unit_ID`, `Organizational_Unit_Description`, `Direct_Manager_ID`, `Direct_Manager_Name` FROM `usuarioxcdc_bkp_04062018`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="valida_inventarioTableAdapter" GeneratorDataComponentClassName="valida_inventarioTableAdapter" Name="valida_inventario" UserDataComponentName="valida_inventarioTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="app_inv.valida_inventario" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idvalida_inventario`, `numero_chamado`, `etiqueta_fiat`, `LEASING`, `dt_fechamento`, `usr_loginrede` FROM `valida_inventario`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="app_invLOCALConnectionString (Settings)" DbObjectName="`app_inv`.`sp_cria_tabela_inventario`" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="sp_cria_tabela_inventario" MethodsParameterType="CLR" Modifier="Public" Name="sp_cria_tabela_inventario" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="sp_cria_tabela_inventario">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>`app_inv`.`sp_cria_tabela_inventario`</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="app_invLOCALDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="app_invLOCALDataSet" msprop:Generator_UserDSName="app_invLOCALDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="atualizacao_bkp_05042018" msprop:Generator_TableClassName="atualizacao_bkp_05042018DataTable" msprop:Generator_TableVarName="tableatualizacao_bkp_05042018" msprop:Generator_TablePropName="atualizacao_bkp_05042018" msprop:Generator_RowDeletingName="atualizacao_bkp_05042018RowDeleting" msprop:Generator_RowChangingName="atualizacao_bkp_05042018RowChanging" msprop:Generator_RowEvHandlerName="atualizacao_bkp_05042018RowChangeEventHandler" msprop:Generator_RowDeletedName="atualizacao_bkp_05042018RowDeleted" msprop:Generator_UserTableName="atualizacao_bkp_05042018" msprop:Generator_RowChangedName="atualizacao_bkp_05042018RowChanged" msprop:Generator_RowEvArgName="atualizacao_bkp_05042018RowChangeEvent" msprop:Generator_RowClassName="atualizacao_bkp_05042018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário" msprop:Generator_TableClassName="inventárioDataTable" msprop:Generator_TableVarName="tableinventário" msprop:Generator_TablePropName="inventário" msprop:Generator_RowDeletingName="inventárioRowDeleting" msprop:Generator_RowChangingName="inventárioRowChanging" msprop:Generator_RowEvHandlerName="inventárioRowChangeEventHandler" msprop:Generator_RowDeletedName="inventárioRowDeleted" msprop:Generator_UserTableName="inventário" msprop:Generator_RowChangedName="inventárioRowChanged" msprop:Generator_RowEvArgName="inventárioRowChangeEvent" msprop:Generator_RowClassName="inventárioRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_antiga" msprop:Generator_TableClassName="inventário_antigaDataTable" msprop:Generator_TableVarName="tableinventário_antiga" msprop:Generator_TablePropName="inventário_antiga" msprop:Generator_RowDeletingName="inventário_antigaRowDeleting" msprop:Generator_RowChangingName="inventário_antigaRowChanging" msprop:Generator_RowEvHandlerName="inventário_antigaRowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_antigaRowDeleted" msprop:Generator_UserTableName="inventário_antiga" msprop:Generator_RowChangedName="inventário_antigaRowChanged" msprop:Generator_RowEvArgName="inventário_antigaRowChangeEvent" msprop:Generator_RowClassName="inventário_antigaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_02052018" msprop:Generator_TableClassName="inventário_bkp_02052018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_02052018" msprop:Generator_TablePropName="inventário_bkp_02052018" msprop:Generator_RowDeletingName="inventário_bkp_02052018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_02052018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_02052018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_02052018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_02052018" msprop:Generator_RowChangedName="inventário_bkp_02052018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_02052018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_02052018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_04042017" msprop:Generator_TableClassName="inventário_bkp_04042017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_04042017" msprop:Generator_TablePropName="inventário_bkp_04042017" msprop:Generator_RowDeletingName="inventário_bkp_04042017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_04042017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_04042017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_04042017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_04042017" msprop:Generator_RowChangedName="inventário_bkp_04042017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_04042017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_04042017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_04052018" msprop:Generator_TableClassName="inventário_bkp_04052018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_04052018" msprop:Generator_TablePropName="inventário_bkp_04052018" msprop:Generator_RowDeletingName="inventário_bkp_04052018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_04052018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_04052018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_04052018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_04052018" msprop:Generator_RowChangedName="inventário_bkp_04052018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_04052018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_04052018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_04062018" msprop:Generator_TableClassName="inventário_bkp_04062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_04062018" msprop:Generator_TablePropName="inventário_bkp_04062018" msprop:Generator_RowDeletingName="inventário_bkp_04062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_04062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_04062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_04062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_04062018" msprop:Generator_RowChangedName="inventário_bkp_04062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_04062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_04062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_05042018" msprop:Generator_TableClassName="inventário_bkp_05042018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_05042018" msprop:Generator_TablePropName="inventário_bkp_05042018" msprop:Generator_RowDeletingName="inventário_bkp_05042018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_05042018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_05042018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_05042018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_05042018" msprop:Generator_RowChangedName="inventário_bkp_05042018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_05042018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_05042018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_05122017" msprop:Generator_TableClassName="inventário_bkp_05122017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_05122017" msprop:Generator_TablePropName="inventário_bkp_05122017" msprop:Generator_RowDeletingName="inventário_bkp_05122017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_05122017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_05122017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_05122017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_05122017" msprop:Generator_RowChangedName="inventário_bkp_05122017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_05122017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_05122017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_06062018" msprop:Generator_TableClassName="inventário_bkp_06062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_06062018" msprop:Generator_TablePropName="inventário_bkp_06062018" msprop:Generator_RowDeletingName="inventário_bkp_06062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_06062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_06062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_06062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_06062018" msprop:Generator_RowChangedName="inventário_bkp_06062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_06062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_06062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_06102016" msprop:Generator_TableClassName="inventário_bkp_06102016DataTable" msprop:Generator_TableVarName="tableinventário_bkp_06102016" msprop:Generator_TablePropName="inventário_bkp_06102016" msprop:Generator_RowDeletingName="inventário_bkp_06102016RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_06102016RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_06102016RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_06102016RowDeleted" msprop:Generator_UserTableName="inventário_bkp_06102016" msprop:Generator_RowChangedName="inventário_bkp_06102016RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_06102016RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_06102016Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_06122016" msprop:Generator_TableClassName="inventário_bkp_06122016DataTable" msprop:Generator_TableVarName="tableinventário_bkp_06122016" msprop:Generator_TablePropName="inventário_bkp_06122016" msprop:Generator_RowDeletingName="inventário_bkp_06122016RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_06122016RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_06122016RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_06122016RowDeleted" msprop:Generator_UserTableName="inventário_bkp_06122016" msprop:Generator_RowChangedName="inventário_bkp_06122016RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_06122016RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_06122016Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_08022018" msprop:Generator_TableClassName="inventário_bkp_08022018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_08022018" msprop:Generator_TablePropName="inventário_bkp_08022018" msprop:Generator_RowDeletingName="inventário_bkp_08022018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_08022018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_08022018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_08022018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_08022018" msprop:Generator_RowChangedName="inventário_bkp_08022018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_08022018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_08022018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_08052018" msprop:Generator_TableClassName="inventário_bkp_08052018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_08052018" msprop:Generator_TablePropName="inventário_bkp_08052018" msprop:Generator_RowDeletingName="inventário_bkp_08052018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_08052018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_08052018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_08052018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_08052018" msprop:Generator_RowChangedName="inventário_bkp_08052018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_08052018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_08052018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_09052017" msprop:Generator_TableClassName="inventário_bkp_09052017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_09052017" msprop:Generator_TablePropName="inventário_bkp_09052017" msprop:Generator_RowDeletingName="inventário_bkp_09052017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_09052017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_09052017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_09052017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_09052017" msprop:Generator_RowChangedName="inventário_bkp_09052017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_09052017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_09052017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_10082017" msprop:Generator_TableClassName="inventário_bkp_10082017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_10082017" msprop:Generator_TablePropName="inventário_bkp_10082017" msprop:Generator_RowDeletingName="inventário_bkp_10082017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_10082017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_10082017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_10082017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_10082017" msprop:Generator_RowChangedName="inventário_bkp_10082017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_10082017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_10082017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_11062018" msprop:Generator_TableClassName="inventário_bkp_11062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_11062018" msprop:Generator_TablePropName="inventário_bkp_11062018" msprop:Generator_RowDeletingName="inventário_bkp_11062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_11062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_11062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_11062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_11062018" msprop:Generator_RowChangedName="inventário_bkp_11062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_11062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_11062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_11072017" msprop:Generator_TableClassName="inventário_bkp_11072017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_11072017" msprop:Generator_TablePropName="inventário_bkp_11072017" msprop:Generator_RowDeletingName="inventário_bkp_11072017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_11072017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_11072017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_11072017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_11072017" msprop:Generator_RowChangedName="inventário_bkp_11072017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_11072017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_11072017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_11072018" msprop:Generator_TableClassName="inventário_bkp_11072018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_11072018" msprop:Generator_TablePropName="inventário_bkp_11072018" msprop:Generator_RowDeletingName="inventário_bkp_11072018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_11072018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_11072018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_11072018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_11072018" msprop:Generator_RowChangedName="inventário_bkp_11072018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_11072018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_11072018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_12042018" msprop:Generator_TableClassName="inventário_bkp_12042018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_12042018" msprop:Generator_TablePropName="inventário_bkp_12042018" msprop:Generator_RowDeletingName="inventário_bkp_12042018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_12042018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_12042018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_12042018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_12042018" msprop:Generator_RowChangedName="inventário_bkp_12042018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_12042018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_12042018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_12062018" msprop:Generator_TableClassName="inventário_bkp_12062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_12062018" msprop:Generator_TablePropName="inventário_bkp_12062018" msprop:Generator_RowDeletingName="inventário_bkp_12062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_12062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_12062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_12062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_12062018" msprop:Generator_RowChangedName="inventário_bkp_12062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_12062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_12062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_13062018" msprop:Generator_TableClassName="inventário_bkp_13062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_13062018" msprop:Generator_TablePropName="inventário_bkp_13062018" msprop:Generator_RowDeletingName="inventário_bkp_13062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_13062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_13062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_13062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_13062018" msprop:Generator_RowChangedName="inventário_bkp_13062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_13062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_13062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_14092017" msprop:Generator_TableClassName="inventário_bkp_14092017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_14092017" msprop:Generator_TablePropName="inventário_bkp_14092017" msprop:Generator_RowDeletingName="inventário_bkp_14092017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_14092017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_14092017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_14092017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_14092017" msprop:Generator_RowChangedName="inventário_bkp_14092017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_14092017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_14092017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_15052018" msprop:Generator_TableClassName="inventário_bkp_15052018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_15052018" msprop:Generator_TablePropName="inventário_bkp_15052018" msprop:Generator_RowDeletingName="inventário_bkp_15052018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_15052018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_15052018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_15052018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_15052018" msprop:Generator_RowChangedName="inventário_bkp_15052018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_15052018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_15052018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_15062018" msprop:Generator_TableClassName="inventário_bkp_15062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_15062018" msprop:Generator_TablePropName="inventário_bkp_15062018" msprop:Generator_RowDeletingName="inventário_bkp_15062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_15062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_15062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_15062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_15062018" msprop:Generator_RowChangedName="inventário_bkp_15062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_15062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_15062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_16042018" msprop:Generator_TableClassName="inventário_bkp_16042018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_16042018" msprop:Generator_TablePropName="inventário_bkp_16042018" msprop:Generator_RowDeletingName="inventário_bkp_16042018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_16042018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_16042018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_16042018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_16042018" msprop:Generator_RowChangedName="inventário_bkp_16042018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_16042018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_16042018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_16042018_v2" msprop:Generator_TableClassName="inventário_bkp_16042018_v2DataTable" msprop:Generator_TableVarName="tableinventário_bkp_16042018_v2" msprop:Generator_TablePropName="inventário_bkp_16042018_v2" msprop:Generator_RowDeletingName="inventário_bkp_16042018_v2RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_16042018_v2RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_16042018_v2RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_16042018_v2RowDeleted" msprop:Generator_UserTableName="inventário_bkp_16042018_v2" msprop:Generator_RowChangedName="inventário_bkp_16042018_v2RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_16042018_v2RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_16042018_v2Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_17112017" msprop:Generator_TableClassName="inventário_bkp_17112017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_17112017" msprop:Generator_TablePropName="inventário_bkp_17112017" msprop:Generator_RowDeletingName="inventário_bkp_17112017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_17112017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_17112017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_17112017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_17112017" msprop:Generator_RowChangedName="inventário_bkp_17112017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_17112017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_17112017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_18012017" msprop:Generator_TableClassName="inventário_bkp_18012017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_18012017" msprop:Generator_TablePropName="inventário_bkp_18012017" msprop:Generator_RowDeletingName="inventário_bkp_18012017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_18012017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_18012017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_18012017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_18012017" msprop:Generator_RowChangedName="inventário_bkp_18012017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_18012017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_18012017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_18052017" msprop:Generator_TableClassName="inventário_bkp_18052017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_18052017" msprop:Generator_TablePropName="inventário_bkp_18052017" msprop:Generator_RowDeletingName="inventário_bkp_18052017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_18052017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_18052017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_18052017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_18052017" msprop:Generator_RowChangedName="inventário_bkp_18052017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_18052017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_18052017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_18102017" msprop:Generator_TableClassName="inventário_bkp_18102017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_18102017" msprop:Generator_TablePropName="inventário_bkp_18102017" msprop:Generator_RowDeletingName="inventário_bkp_18102017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_18102017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_18102017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_18102017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_18102017" msprop:Generator_RowChangedName="inventário_bkp_18102017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_18102017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_18102017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_19062018" msprop:Generator_TableClassName="inventário_bkp_19062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_19062018" msprop:Generator_TablePropName="inventário_bkp_19062018" msprop:Generator_RowDeletingName="inventário_bkp_19062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_19062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_19062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_19062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_19062018" msprop:Generator_RowChangedName="inventário_bkp_19062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_19062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_19062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_19072017" msprop:Generator_TableClassName="inventário_bkp_19072017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_19072017" msprop:Generator_TablePropName="inventário_bkp_19072017" msprop:Generator_RowDeletingName="inventário_bkp_19072017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_19072017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_19072017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_19072017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_19072017" msprop:Generator_RowChangedName="inventário_bkp_19072017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_19072017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_19072017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_19102016" msprop:Generator_TableClassName="inventário_bkp_19102016DataTable" msprop:Generator_TableVarName="tableinventário_bkp_19102016" msprop:Generator_TablePropName="inventário_bkp_19102016" msprop:Generator_RowDeletingName="inventário_bkp_19102016RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_19102016RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_19102016RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_19102016RowDeleted" msprop:Generator_UserTableName="inventário_bkp_19102016" msprop:Generator_RowChangedName="inventário_bkp_19102016RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_19102016RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_19102016Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_20062018" msprop:Generator_TableClassName="inventário_bkp_20062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_20062018" msprop:Generator_TablePropName="inventário_bkp_20062018" msprop:Generator_RowDeletingName="inventário_bkp_20062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_20062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_20062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_20062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_20062018" msprop:Generator_RowChangedName="inventário_bkp_20062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_20062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_20062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_20122016" msprop:Generator_TableClassName="inventário_bkp_20122016DataTable" msprop:Generator_TableVarName="tableinventário_bkp_20122016" msprop:Generator_TablePropName="inventário_bkp_20122016" msprop:Generator_RowDeletingName="inventário_bkp_20122016RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_20122016RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_20122016RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_20122016RowDeleted" msprop:Generator_UserTableName="inventário_bkp_20122016" msprop:Generator_RowChangedName="inventário_bkp_20122016RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_20122016RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_20122016Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_21052018" msprop:Generator_TableClassName="inventário_bkp_21052018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_21052018" msprop:Generator_TablePropName="inventário_bkp_21052018" msprop:Generator_RowDeletingName="inventário_bkp_21052018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_21052018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_21052018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_21052018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_21052018" msprop:Generator_RowChangedName="inventário_bkp_21052018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_21052018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_21052018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_21062018" msprop:Generator_TableClassName="inventário_bkp_21062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_21062018" msprop:Generator_TablePropName="inventário_bkp_21062018" msprop:Generator_RowDeletingName="inventário_bkp_21062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_21062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_21062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_21062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_21062018" msprop:Generator_RowChangedName="inventário_bkp_21062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_21062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_21062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_21072017" msprop:Generator_TableClassName="inventário_bkp_21072017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_21072017" msprop:Generator_TablePropName="inventário_bkp_21072017" msprop:Generator_RowDeletingName="inventário_bkp_21072017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_21072017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_21072017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_21072017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_21072017" msprop:Generator_RowChangedName="inventário_bkp_21072017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_21072017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_21072017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_22032017" msprop:Generator_TableClassName="inventário_bkp_22032017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_22032017" msprop:Generator_TablePropName="inventário_bkp_22032017" msprop:Generator_RowDeletingName="inventário_bkp_22032017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_22032017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_22032017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_22032017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_22032017" msprop:Generator_RowChangedName="inventário_bkp_22032017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_22032017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_22032017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_22052018" msprop:Generator_TableClassName="inventário_bkp_22052018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_22052018" msprop:Generator_TablePropName="inventário_bkp_22052018" msprop:Generator_RowDeletingName="inventário_bkp_22052018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_22052018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_22052018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_22052018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_22052018" msprop:Generator_RowChangedName="inventário_bkp_22052018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_22052018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_22052018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_22082018_preenchida" msprop:Generator_TableClassName="inventário_bkp_22082018_preenchidaDataTable" msprop:Generator_TableVarName="tableinventário_bkp_22082018_preenchida" msprop:Generator_TablePropName="inventário_bkp_22082018_preenchida" msprop:Generator_RowDeletingName="inventário_bkp_22082018_preenchidaRowDeleting" msprop:Generator_RowChangingName="inventário_bkp_22082018_preenchidaRowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_22082018_preenchidaRowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_22082018_preenchidaRowDeleted" msprop:Generator_UserTableName="inventário_bkp_22082018_preenchida" msprop:Generator_RowChangedName="inventário_bkp_22082018_preenchidaRowChanged" msprop:Generator_RowEvArgName="inventário_bkp_22082018_preenchidaRowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_22082018_preenchidaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_23012018" msprop:Generator_TableClassName="inventário_bkp_23012018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_23012018" msprop:Generator_TablePropName="inventário_bkp_23012018" msprop:Generator_RowDeletingName="inventário_bkp_23012018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_23012018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_23012018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_23012018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_23012018" msprop:Generator_RowChangedName="inventário_bkp_23012018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_23012018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_23012018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_23042018" msprop:Generator_TableClassName="inventário_bkp_23042018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_23042018" msprop:Generator_TablePropName="inventário_bkp_23042018" msprop:Generator_RowDeletingName="inventário_bkp_23042018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_23042018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_23042018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_23042018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_23042018" msprop:Generator_RowChangedName="inventário_bkp_23042018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_23042018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_23042018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_23082018" msprop:Generator_TableClassName="inventário_bkp_23082018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_23082018" msprop:Generator_TablePropName="inventário_bkp_23082018" msprop:Generator_RowDeletingName="inventário_bkp_23082018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_23082018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_23082018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_23082018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_23082018" msprop:Generator_RowChangedName="inventário_bkp_23082018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_23082018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_23082018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_23082018_v2" msprop:Generator_TableClassName="inventário_bkp_23082018_v2DataTable" msprop:Generator_TableVarName="tableinventário_bkp_23082018_v2" msprop:Generator_TablePropName="inventário_bkp_23082018_v2" msprop:Generator_RowDeletingName="inventário_bkp_23082018_v2RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_23082018_v2RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_23082018_v2RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_23082018_v2RowDeleted" msprop:Generator_UserTableName="inventário_bkp_23082018_v2" msprop:Generator_RowChangedName="inventário_bkp_23082018_v2RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_23082018_v2RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_23082018_v2Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_24052018" msprop:Generator_TableClassName="inventário_bkp_24052018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_24052018" msprop:Generator_TablePropName="inventário_bkp_24052018" msprop:Generator_RowDeletingName="inventário_bkp_24052018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_24052018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_24052018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_24052018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_24052018" msprop:Generator_RowChangedName="inventário_bkp_24052018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_24052018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_24052018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_24082017" msprop:Generator_TableClassName="inventário_bkp_24082017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_24082017" msprop:Generator_TablePropName="inventário_bkp_24082017" msprop:Generator_RowDeletingName="inventário_bkp_24082017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_24082017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_24082017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_24082017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_24082017" msprop:Generator_RowChangedName="inventário_bkp_24082017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_24082017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_24082017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_25042018" msprop:Generator_TableClassName="inventário_bkp_25042018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_25042018" msprop:Generator_TablePropName="inventário_bkp_25042018" msprop:Generator_RowDeletingName="inventário_bkp_25042018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_25042018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_25042018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_25042018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_25042018" msprop:Generator_RowChangedName="inventário_bkp_25042018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_25042018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_25042018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_25062018" msprop:Generator_TableClassName="inventário_bkp_25062018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_25062018" msprop:Generator_TablePropName="inventário_bkp_25062018" msprop:Generator_RowDeletingName="inventário_bkp_25062018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_25062018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_25062018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_25062018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_25062018" msprop:Generator_RowChangedName="inventário_bkp_25062018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_25062018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_25062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_26012017" msprop:Generator_TableClassName="inventário_bkp_26012017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_26012017" msprop:Generator_TablePropName="inventário_bkp_26012017" msprop:Generator_RowDeletingName="inventário_bkp_26012017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_26012017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_26012017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_26012017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_26012017" msprop:Generator_RowChangedName="inventário_bkp_26012017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_26012017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_26012017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_26012018" msprop:Generator_TableClassName="inventário_bkp_26012018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_26012018" msprop:Generator_TablePropName="inventário_bkp_26012018" msprop:Generator_RowDeletingName="inventário_bkp_26012018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_26012018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_26012018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_26012018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_26012018" msprop:Generator_RowChangedName="inventário_bkp_26012018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_26012018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_26012018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_26042018" msprop:Generator_TableClassName="inventário_bkp_26042018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_26042018" msprop:Generator_TablePropName="inventário_bkp_26042018" msprop:Generator_RowDeletingName="inventário_bkp_26042018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_26042018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_26042018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_26042018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_26042018" msprop:Generator_RowChangedName="inventário_bkp_26042018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_26042018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_26042018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_26042018_v2" msprop:Generator_TableClassName="inventário_bkp_26042018_v2DataTable" msprop:Generator_TableVarName="tableinventário_bkp_26042018_v2" msprop:Generator_TablePropName="inventário_bkp_26042018_v2" msprop:Generator_RowDeletingName="inventário_bkp_26042018_v2RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_26042018_v2RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_26042018_v2RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_26042018_v2RowDeleted" msprop:Generator_UserTableName="inventário_bkp_26042018_v2" msprop:Generator_RowChangedName="inventário_bkp_26042018_v2RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_26042018_v2RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_26042018_v2Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_26092017" msprop:Generator_TableClassName="inventário_bkp_26092017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_26092017" msprop:Generator_TablePropName="inventário_bkp_26092017" msprop:Generator_RowDeletingName="inventário_bkp_26092017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_26092017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_26092017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_26092017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_26092017" msprop:Generator_RowChangedName="inventário_bkp_26092017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_26092017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_26092017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_27102017" msprop:Generator_TableClassName="inventário_bkp_27102017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_27102017" msprop:Generator_TablePropName="inventário_bkp_27102017" msprop:Generator_RowDeletingName="inventário_bkp_27102017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_27102017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_27102017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_27102017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_27102017" msprop:Generator_RowChangedName="inventário_bkp_27102017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_27102017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_27102017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_28052018" msprop:Generator_TableClassName="inventário_bkp_28052018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_28052018" msprop:Generator_TablePropName="inventário_bkp_28052018" msprop:Generator_RowDeletingName="inventário_bkp_28052018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_28052018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_28052018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_28052018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_28052018" msprop:Generator_RowChangedName="inventário_bkp_28052018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_28052018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_28052018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_29062017" msprop:Generator_TableClassName="inventário_bkp_29062017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_29062017" msprop:Generator_TablePropName="inventário_bkp_29062017" msprop:Generator_RowDeletingName="inventário_bkp_29062017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_29062017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_29062017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_29062017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_29062017" msprop:Generator_RowChangedName="inventário_bkp_29062017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_29062017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_29062017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_29112017" msprop:Generator_TableClassName="inventário_bkp_29112017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_29112017" msprop:Generator_TablePropName="inventário_bkp_29112017" msprop:Generator_RowDeletingName="inventário_bkp_29112017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_29112017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_29112017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_29112017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_29112017" msprop:Generator_RowChangedName="inventário_bkp_29112017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_29112017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_29112017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_30012018" msprop:Generator_TableClassName="inventário_bkp_30012018DataTable" msprop:Generator_TableVarName="tableinventário_bkp_30012018" msprop:Generator_TablePropName="inventário_bkp_30012018" msprop:Generator_RowDeletingName="inventário_bkp_30012018RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_30012018RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_30012018RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_30012018RowDeleted" msprop:Generator_UserTableName="inventário_bkp_30012018" msprop:Generator_RowChangedName="inventário_bkp_30012018RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_30012018RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_30012018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_bkp_30052017" msprop:Generator_TableClassName="inventário_bkp_30052017DataTable" msprop:Generator_TableVarName="tableinventário_bkp_30052017" msprop:Generator_TablePropName="inventário_bkp_30052017" msprop:Generator_RowDeletingName="inventário_bkp_30052017RowDeleting" msprop:Generator_RowChangingName="inventário_bkp_30052017RowChanging" msprop:Generator_RowEvHandlerName="inventário_bkp_30052017RowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_bkp_30052017RowDeleted" msprop:Generator_UserTableName="inventário_bkp_30052017" msprop:Generator_RowChangedName="inventário_bkp_30052017RowChanged" msprop:Generator_RowEvArgName="inventário_bkp_30052017RowChangeEvent" msprop:Generator_RowClassName="inventário_bkp_30052017Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="inventário_novo" msprop:Generator_TableClassName="inventário_novoDataTable" msprop:Generator_TableVarName="tableinventário_novo" msprop:Generator_TablePropName="inventário_novo" msprop:Generator_RowDeletingName="inventário_novoRowDeleting" msprop:Generator_RowChangingName="inventário_novoRowChanging" msprop:Generator_RowEvHandlerName="inventário_novoRowChangeEventHandler" msprop:Generator_RowDeletedName="inventário_novoRowDeleted" msprop:Generator_UserTableName="inventário_novo" msprop:Generator_RowChangedName="inventário_novoRowChanged" msprop:Generator_RowEvArgName="inventário_novoRowChangeEvent" msprop:Generator_RowClassName="inventário_novoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_analistas" msprop:Generator_TableClassName="tb_analistasDataTable" msprop:Generator_TableVarName="tabletb_analistas" msprop:Generator_TablePropName="tb_analistas" msprop:Generator_RowDeletingName="tb_analistasRowDeleting" msprop:Generator_RowChangingName="tb_analistasRowChanging" msprop:Generator_RowEvHandlerName="tb_analistasRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_analistasRowDeleted" msprop:Generator_UserTableName="tb_analistas" msprop:Generator_RowChangedName="tb_analistasRowChanged" msprop:Generator_RowEvArgName="tb_analistasRowChangeEvent" msprop:Generator_RowClassName="tb_analistasRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_atendimento" msprop:Generator_TableClassName="tb_atendimentoDataTable" msprop:Generator_TableVarName="tabletb_atendimento" msprop:Generator_TablePropName="tb_atendimento" msprop:Generator_RowDeletingName="tb_atendimentoRowDeleting" msprop:Generator_RowChangingName="tb_atendimentoRowChanging" msprop:Generator_RowEvHandlerName="tb_atendimentoRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_atendimentoRowDeleted" msprop:Generator_UserTableName="tb_atendimento" msprop:Generator_RowChangedName="tb_atendimentoRowChanged" msprop:Generator_RowEvArgName="tb_atendimentoRowChangeEvent" msprop:Generator_RowClassName="tb_atendimentoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_auxiliar" msprop:Generator_TableClassName="tb_auxiliarDataTable" msprop:Generator_TableVarName="tabletb_auxiliar" msprop:Generator_TablePropName="tb_auxiliar" msprop:Generator_RowDeletingName="tb_auxiliarRowDeleting" msprop:Generator_RowChangingName="tb_auxiliarRowChanging" msprop:Generator_RowEvHandlerName="tb_auxiliarRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_auxiliarRowDeleted" msprop:Generator_UserTableName="tb_auxiliar" msprop:Generator_RowChangedName="tb_auxiliarRowChanged" msprop:Generator_RowEvArgName="tb_auxiliarRowChangeEvent" msprop:Generator_RowClassName="tb_auxiliarRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_chaves" msprop:Generator_TableClassName="tb_chavesDataTable" msprop:Generator_TableVarName="tabletb_chaves" msprop:Generator_TablePropName="tb_chaves" msprop:Generator_RowDeletingName="tb_chavesRowDeleting" msprop:Generator_RowChangingName="tb_chavesRowChanging" msprop:Generator_RowEvHandlerName="tb_chavesRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_chavesRowDeleted" msprop:Generator_UserTableName="tb_chaves" msprop:Generator_RowChangedName="tb_chavesRowChanged" msprop:Generator_RowEvArgName="tb_chavesRowChangeEvent" msprop:Generator_RowClassName="tb_chavesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_classificacao" msprop:Generator_TableClassName="tb_classificacaoDataTable" msprop:Generator_TableVarName="tabletb_classificacao" msprop:Generator_TablePropName="tb_classificacao" msprop:Generator_RowDeletingName="tb_classificacaoRowDeleting" msprop:Generator_RowChangingName="tb_classificacaoRowChanging" msprop:Generator_RowEvHandlerName="tb_classificacaoRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_classificacaoRowDeleted" msprop:Generator_UserTableName="tb_classificacao" msprop:Generator_RowChangedName="tb_classificacaoRowChanged" msprop:Generator_RowEvArgName="tb_classificacaoRowChangeEvent" msprop:Generator_RowClassName="tb_classificacaoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_controle_estoque" msprop:Generator_TableClassName="tb_controle_estoqueDataTable" msprop:Generator_TableVarName="tabletb_controle_estoque" msprop:Generator_TablePropName="tb_controle_estoque" msprop:Generator_RowDeletingName="tb_controle_estoqueRowDeleting" msprop:Generator_RowChangingName="tb_controle_estoqueRowChanging" msprop:Generator_RowEvHandlerName="tb_controle_estoqueRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_controle_estoqueRowDeleted" msprop:Generator_UserTableName="tb_controle_estoque" msprop:Generator_RowChangedName="tb_controle_estoqueRowChanged" msprop:Generator_RowEvArgName="tb_controle_estoqueRowChangeEvent" msprop:Generator_RowClassName="tb_controle_estoqueRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_script" msprop:Generator_TableClassName="tb_scriptDataTable" msprop:Generator_TableVarName="tabletb_script" msprop:Generator_TablePropName="tb_script" msprop:Generator_RowDeletingName="tb_scriptRowDeleting" msprop:Generator_RowChangingName="tb_scriptRowChanging" msprop:Generator_RowEvHandlerName="tb_scriptRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_scriptRowDeleted" msprop:Generator_UserTableName="tb_script" msprop:Generator_RowChangedName="tb_scriptRowChanged" msprop:Generator_RowEvArgName="tb_scriptRowChangeEvent" msprop:Generator_RowClassName="tb_scriptRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_status" msprop:Generator_TableClassName="tb_statusDataTable" msprop:Generator_TableVarName="tabletb_status" msprop:Generator_TablePropName="tb_status" msprop:Generator_RowDeletingName="tb_statusRowDeleting" msprop:Generator_RowChangingName="tb_statusRowChanging" msprop:Generator_RowEvHandlerName="tb_statusRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_statusRowDeleted" msprop:Generator_UserTableName="tb_status" msprop:Generator_RowChangedName="tb_statusRowChanged" msprop:Generator_RowEvArgName="tb_statusRowChangeEvent" msprop:Generator_RowClassName="tb_statusRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_usuario" msprop:Generator_TableClassName="tb_usuarioDataTable" msprop:Generator_TableVarName="tabletb_usuario" msprop:Generator_TablePropName="tb_usuario" msprop:Generator_RowDeletingName="tb_usuarioRowDeleting" msprop:Generator_RowChangingName="tb_usuarioRowChanging" msprop:Generator_RowEvHandlerName="tb_usuarioRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_usuarioRowDeleted" msprop:Generator_UserTableName="tb_usuario" msprop:Generator_RowChangedName="tb_usuarioRowChanged" msprop:Generator_RowEvArgName="tb_usuarioRowChangeEvent" msprop:Generator_RowClassName="tb_usuarioRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_validachamado" msprop:Generator_TableClassName="tb_validachamadoDataTable" msprop:Generator_TableVarName="tabletb_validachamado" msprop:Generator_TablePropName="tb_validachamado" msprop:Generator_RowDeletingName="tb_validachamadoRowDeleting" msprop:Generator_RowChangingName="tb_validachamadoRowChanging" msprop:Generator_RowEvHandlerName="tb_validachamadoRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_validachamadoRowDeleted" msprop:Generator_UserTableName="tb_validachamado" msprop:Generator_RowChangedName="tb_validachamadoRowChanged" msprop:Generator_RowEvArgName="tb_validachamadoRowChangeEvent" msprop:Generator_RowClassName="tb_validachamadoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="usuarioxcdc" msprop:Generator_TableClassName="usuarioxcdcDataTable" msprop:Generator_TableVarName="tableusuarioxcdc" msprop:Generator_TablePropName="usuarioxcdc" msprop:Generator_RowDeletingName="usuarioxcdcRowDeleting" msprop:Generator_RowChangingName="usuarioxcdcRowChanging" msprop:Generator_RowEvHandlerName="usuarioxcdcRowChangeEventHandler" msprop:Generator_RowDeletedName="usuarioxcdcRowDeleted" msprop:Generator_UserTableName="usuarioxcdc" msprop:Generator_RowChangedName="usuarioxcdcRowChanged" msprop:Generator_RowEvArgName="usuarioxcdcRowChangeEvent" msprop:Generator_RowClassName="usuarioxcdcRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="usuarioxcdc_bkp_04062018" msprop:Generator_TableClassName="usuarioxcdc_bkp_04062018DataTable" msprop:Generator_TableVarName="tableusuarioxcdc_bkp_04062018" msprop:Generator_TablePropName="usuarioxcdc_bkp_04062018" msprop:Generator_RowDeletingName="usuarioxcdc_bkp_04062018RowDeleting" msprop:Generator_RowChangingName="usuarioxcdc_bkp_04062018RowChanging" msprop:Generator_RowEvHandlerName="usuarioxcdc_bkp_04062018RowChangeEventHandler" msprop:Generator_RowDeletedName="usuarioxcdc_bkp_04062018RowDeleted" msprop:Generator_UserTableName="usuarioxcdc_bkp_04062018" msprop:Generator_RowChangedName="usuarioxcdc_bkp_04062018RowChanged" msprop:Generator_RowEvArgName="usuarioxcdc_bkp_04062018RowChangeEvent" msprop:Generator_RowClassName="usuarioxcdc_bkp_04062018Row">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="valida_inventario" msprop:Generator_TableClassName="valida_inventarioDataTable" msprop:Generator_TableVarName="tablevalida_inventario" msprop:Generator_TablePropName="valida_inventario" msprop:Generator_RowDeletingName="valida_inventarioRowDeleting" msprop:Generator_RowChangingName="valida_inventarioRowChanging" msprop:Generator_RowEvHandlerName="valida_inventarioRowChangeEventHandler" msprop:Generator_RowDeletedName="valida_inventarioRowDeleted" msprop:Generator_UserTableName="valida_inventario" msprop:Generator_RowChangedName="valida_inventarioRowChanged" msprop:Generator_RowEvArgName="valida_inventarioRowChangeEvent" msprop:Generator_RowClassName="valida_inventarioRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
